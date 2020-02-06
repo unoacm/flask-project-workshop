@@ -1,1 +1,5 @@
+{% if current_user.username %}
+<p>Hello {{ current_user.username }}</p>
+{% else %}
 <p>Hello, World</p>
+{% endif %}

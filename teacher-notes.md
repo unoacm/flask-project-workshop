@@ -22,3 +22,5 @@ This doc contains instructions for creating a starter flask app.
 3. `flask-wtf`
 4. Signup route and form: have it redirect to home only for now
 5. change successful signup to create and insert a user
+6. login route and form
+7. update `index.html` to say hello to logged in user
